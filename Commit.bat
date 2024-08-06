@@ -1,7 +1,7 @@
 @echo off
 
 :: Change Directory
-cd D:\Github_Commit_Automation
+cd C:\Github_Commit_Automation
 
 :check_internet
 ping -n 1 8.8.8.8 | find "TTL=" >nul
